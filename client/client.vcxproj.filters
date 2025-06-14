@@ -1,0 +1,773 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{0989fa90-ce43-4ac5-906a-0fd16e7a606f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="archive">
+      <UniqueIdentifier>{205d5f4f-12e8-4758-aa12-7c873e74e068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{112c9b74-5705-4e67-8827-17ee7007fd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{ee2286f9-9bf4-45c3-969e-752193fcd1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\md5">
+      <UniqueIdentifier>{76607825-5c92-4f6a-9f96-0974281a2be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\detours">
+      <UniqueIdentifier>{703a09de-9010-4402-9af7-81f031f00e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\raknet">
+      <UniqueIdentifier>{bdfe8424-ea48-4b26-bd47-805ab266cc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\dxut">
+      <UniqueIdentifier>{f266aa84-3284-475e-a6db-33945eb864ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\bass">
+      <UniqueIdentifier>{aefa8bea-bc19-4c7b-b6fe-e21a92dd8e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\discordrpc">
+      <UniqueIdentifier>{40b88e7b-b46b-449e-bd26-91d1bb45095b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="net\gangzonepool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\localplayer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\menupool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\netgame.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\netrpc.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\objectpool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\pickuppool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\playerpool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\remoteplayer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\scriptrpc.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\textdrawpool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\vehiclepool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\ArchiveFS.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\CryptoContext.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\CryptoFns.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\Hasher.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\KeyPair.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\Signer.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="archive\TinyEncrypt.cpp">
+      <Filter>archive</Filter>
+    </ClCompile>
+    <ClCompile Include="game\aimstuff.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\camera.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\cheats.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\debug.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\entity.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\hooks.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\keystuff.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\menu.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\object.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\patches.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\playerped.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scripting.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\task.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\textdraw.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\util.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\vehicle.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\sdk\md5\md5.cpp">
+      <Filter>sdk\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\dxut\dxstdafx.cpp">
+      <Filter>sdk\dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="chatwindow.cpp" />
+    <ClCompile Include="cmdprocs.cpp" />
+    <ClCompile Include="cmdwindow.cpp" />
+    <ClCompile Include="deathwindow.cpp" />
+    <ClCompile Include="events.cpp" />
+    <ClCompile Include="exceptions.cpp" />
+    <ClCompile Include="filechecks.cpp" />
+    <ClCompile Include="filehooks.cpp" />
+    <ClCompile Include="filesystem.cpp" />
+    <ClCompile Include="fontrender.cpp" />
+    <ClCompile Include="label.cpp" />
+    <ClCompile Include="netstats.cpp" />
+    <ClCompile Include="runutil.cpp" />
+    <ClCompile Include="scoreboard.cpp" />
+    <ClCompile Include="spawnscreen.cpp" />
+    <ClCompile Include="subclass.cpp" />
+    <ClCompile Include="..\sdk\raknet\BitStream.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\CheckSum.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\DataBlockEncryptor.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\DataCompressor.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\DirectoryDeltaTransfer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\DS_HuffmanEncodingTree.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\DS_Table.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\FileList.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\FileListTransfer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\FileOperations.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\GetTime.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\InternalPacketPool.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\LinuxStrings.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\NatPunchthrough.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\NetworkIDGenerator.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\NetworkTypes.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\PluginInterface.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\RakClient.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\RakNetStatistics.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\RakPeer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\RakSleep.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\Rand.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\ReliabilityLayer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\rijndael.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\RPCMap.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\SHA1.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\SimpleMutex.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\SocketLayer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\StringCompressor.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\StringTable.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\SystemAddressList.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\TableSerializer.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\TCPInterface.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\TEABlockEncryptor.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\raknet\_findfirst.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="playertags.cpp" />
+    <ClCompile Include="d3dhook.cpp" />
+    <ClCompile Include="cursor.cpp" />
+    <ClCompile Include="..\sdk\dxut\DXUTgui.cpp">
+      <Filter>sdk\dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\dxut\DXUTmisc.cpp">
+      <Filter>sdk\dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\dxut\DXUT.cpp">
+      <Filter>sdk\dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\dxut\DXUTenum.cpp">
+      <Filter>sdk\dxut</Filter>
+    </ClCompile>
+    <ClCompile Include="audiostream.cpp" />
+    <ClCompile Include="colorembed.cpp" />
+    <ClCompile Include="licenseplate.cpp" />
+    <ClCompile Include="game\txdstuff.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="unnamed1.cpp" />
+    <ClCompile Include="unnamed2.cpp" />
+    <ClCompile Include="game\actor.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="net\actorpool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="configfile.cpp" />
+    <ClCompile Include="game\rwstuff.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="net\labelpool.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\discordrpc\connection_win.cpp">
+      <Filter>sdk\discordrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\discordrpc\discord_register_win.cpp">
+      <Filter>sdk\discordrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\discordrpc\discord_rpc.cpp">
+      <Filter>sdk\discordrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\discordrpc\rpc_connection.cpp">
+      <Filter>sdk\discordrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sdk\discordrpc\serialization.cpp">
+      <Filter>sdk\discordrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="chatbubble.cpp" />
+    <ClCompile Include="dialog.cpp" />
+    <ClCompile Include="hash.cpp" />
+    <ClCompile Include="..\sdk\raknet\SAMPCipher.cpp">
+      <Filter>sdk\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="textdrawselect.cpp" />
+    <ClCompile Include="game\animstuff.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net\gangzonepool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\localplayer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\menupool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\netgame.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\netrpc.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\objectpool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\pickuppool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\playerpool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\remoteplayer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\scriptrpc.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\textdrawpool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\vehiclepool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\ArchiveCommon.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\ArchiveFS.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\CryptoContext.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\CryptoFns.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\Hasher.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\KeyPair.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\Obfuscator.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\Signer.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="archive\TinyEncrypt.h">
+      <Filter>archive</Filter>
+    </ClInclude>
+    <ClInclude Include="game\address.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\aimstuff.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\camera.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\common.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\debug.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\entity.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\font.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\keystuff.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\menu.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\object.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\playerped.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scripting.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\task.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\textdraw.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\vehicle.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\sdk\md5\md5.h">
+      <Filter>sdk\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\detours\detours.h">
+      <Filter>sdk\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\dxut\dxstdafx.h">
+      <Filter>sdk\dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="chatwindow.h" />
+    <ClInclude Include="cmdprocs.h" />
+    <ClInclude Include="cmdwindow.h" />
+    <ClInclude Include="deathwindow.h" />
+    <ClInclude Include="filechecks.h" />
+    <ClInclude Include="filesystem.h" />
+    <ClInclude Include="filehooks.h" />
+    <ClInclude Include="fontrender.h" />
+    <ClInclude Include="mod.h" />
+    <ClInclude Include="label.h" />
+    <ClInclude Include="netstats.h" />
+    <ClInclude Include="outputdebugstring.h" />
+    <ClInclude Include="runutil.h" />
+    <ClInclude Include="scoreboard.h" />
+    <ClInclude Include="spawnscreen.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\sdk\raknet\BitStream.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\CheckSum.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DataBlockEncryptor.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DataCompressor.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DirectoryDeltaTransfer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_BinarySearchTree.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_BPlusTree.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_Heap.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_HuffmanEncodingTree.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_LinkedList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_List.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_Map.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_MemoryPool.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_OrderedChannelHeap.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_OrderedList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_Queue.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_QueueLinkedList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_RangeList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_Table.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_Tree.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\DS_WeightedGraph.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\Export.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\FileList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\FileListTransfer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\FileListTransferCBInterface.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\FileOperations.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\GetTime.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\InternalPacket.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\InternalPacketPool.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\LinuxStrings.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\MTUSize.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\Multiplayer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\NatPunchthrough.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\NetworkIDGenerator.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\NetworkTypes.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\PacketEnumerations.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\PacketPriority.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\PluginInterface.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakAssert.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakClient.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakClientInterface.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakNetDefines.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakNetStatistics.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakPeer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakPeerInterface.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RakSleep.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\Rand.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\ReliabilityLayer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\rijndael.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\rijndael-boxes.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RPCMap.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RPCNode.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\RSACrypt.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SAMPRPC.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SHA1.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SimpleMutex.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SingleProducerConsumer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SocketLayer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\StringCompressor.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\StringTable.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\SystemAddressList.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\TableSerializer.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\TCPInterface.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\TEABlockEncryptor.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\ThreadPool.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\Types.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\_findfirst.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\raknet\BigTypes.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="playertags.h" />
+    <ClInclude Include="d3dhook.h" />
+    <ClInclude Include="..\sdk\shared.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h" />
+    <ClInclude Include="..\sdk\dxut\DXUTgui.h">
+      <Filter>sdk\dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\dxut\DXUTmisc.h">
+      <Filter>sdk\dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\dxut\DXUT.h">
+      <Filter>sdk\dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\dxut\DXUTenum.h">
+      <Filter>sdk\dxut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\bass\bass.h">
+      <Filter>sdk\bass</Filter>
+    </ClInclude>
+    <ClInclude Include="audiostream.h" />
+    <ClInclude Include="colorembed.h" />
+    <ClInclude Include="licenseplate.h" />
+    <ClInclude Include="game\txdstuff.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="unnamed1.h" />
+    <ClInclude Include="unnamed2.h" />
+    <ClInclude Include="game\actor.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="net\actorpool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="configfile.h" />
+    <ClInclude Include="game\rwstuff.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="net\labelpool.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\backoff.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\connection.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\discord_register.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\discord_rpc.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\msg_queue.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\rpc_connection.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sdk\discordrpc\serialization.h">
+      <Filter>sdk\discordrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="chatbubble.h" />
+    <ClInclude Include="dialog.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="..\sdk\raknet\SAMPCipher.h">
+      <Filter>sdk\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="textdrawselect.h" />
+    <ClInclude Include="game\animstuff.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\sdk\detours\detours.lib">
+      <Filter>sdk\detours</Filter>
+    </Library>
+    <Library Include="..\sdk\bass\bass.lib">
+      <Filter>sdk\bass</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="client.rc" />
+  </ItemGroup>
+</Project>

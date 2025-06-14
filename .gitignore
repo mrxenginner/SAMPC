@@ -1,0 +1,53 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio files
+.vs/
+
+# Build files
+Debug/
+Release/
+
+# That stupid settings.ini from Pawno
+pawno/settings.ini
+
+# Lazarus generated files from exgui (Server browser and mod launcher)
+exgui_lazarus/backup/
+exgui_lazarus/lib/
+
+# RakNet
+#sdk/raknet/*.cpp
+
+# Misc
+*.aps
+*.vcxproj.user
