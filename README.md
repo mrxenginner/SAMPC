@@ -2,9 +2,9 @@
 This repository contains the full source code for the 0.3.9 version of SAMPC, formerly known as SAMPE. Please note that this project is no longer actively maintained or updated. Any usage of this code is at your own risk.
 
 ## Screenshot(s)
-![Screenshot 1](https://github.com/dashr9230/SAMPC/blob/master/images/sa-mp-000.jpg "SetPlayerCameraPos rotation test")
-![Screenshot 2](https://github.com/dashr9230/SAMPC/blob/master/images/sa-mp-001.jpg "Chatbubble test")
-![Screenshot 3](https://github.com/dashr9230/SAMPC/blob/master/images/sa-mp-002.jpg "SetVehicleFeature test")
+![Screenshot 1](https://raw.githubusercontent.com/dashr9230/SAMPC/refs/heads/main/images/sa-mp-000.jpg "SetPlayerCameraPos rotation test")
+![Screenshot 2](https://raw.githubusercontent.com/dashr9230/SAMPC/refs/heads/main/images/sa-mp-001.jpg "Chatbubble test")
+![Screenshot 3](https://raw.githubusercontent.com/dashr9230/SAMPC/refs/heads/main/images/sa-mp-002.jpg "SetVehicleFeature test")
 
 ## Changelog
 **SA-MP 0.3.9 Alpha 1**
