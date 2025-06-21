@@ -174,59 +174,59 @@
 			Name="Archive"
 			>
 			<File
-				RelativePath="..\saco\archive\ArchiveCommon.h"
+				RelativePath="..\client\archive\ArchiveCommon.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\ArchiveFS.cpp"
+				RelativePath="..\client\archive\ArchiveFS.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\ArchiveFS.h"
+				RelativePath="..\client\archive\ArchiveFS.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\CryptoContext.cpp"
+				RelativePath="..\client\archive\CryptoContext.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\CryptoContext.h"
+				RelativePath="..\client\archive\CryptoContext.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\Hasher.cpp"
+				RelativePath="..\client\archive\Hasher.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\Hasher.h"
+				RelativePath="..\client\archive\Hasher.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\KeyPair.cpp"
+				RelativePath="..\client\archive\KeyPair.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\KeyPair.h"
+				RelativePath="..\client\archive\KeyPair.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\Obfuscator.h"
+				RelativePath="..\client\archive\Obfuscator.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\Signer.cpp"
+				RelativePath="..\client\archive\Signer.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\Signer.h"
+				RelativePath="..\client\archive\Signer.h"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\TinyEncrypt.cpp"
+				RelativePath="..\client\archive\TinyEncrypt.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\saco\archive\TinyEncrypt.h"
+				RelativePath="..\client\archive\TinyEncrypt.h"
 				>
 			</File>
 		</Filter>

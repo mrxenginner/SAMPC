@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archive">
+      <UniqueIdentifier>{cc5d6ed4-bef1-4696-abc6-98eacc02c2c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\client\archive\ArchiveCommon.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\ArchiveFS.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\CryptoContext.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\Hasher.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\KeyPair.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\Obfuscator.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\Signer.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\archive\TinyEncrypt.h">
+      <Filter>Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchiveBuilder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\client\archive\ArchiveFS.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\archive\CryptoContext.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\archive\Hasher.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\archive\KeyPair.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\archive\Signer.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\archive\TinyEncrypt.cpp">
+      <Filter>Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveBuilder.cpp" />
+    <ClCompile Include="arctool2.cpp" />
+  </ItemGroup>
+</Project>

@@ -12,7 +12,7 @@
 // Note: Unique ID for RPCs must be between 0-255! Exceeding the range will cause integer overflow, and calls other unwanted registered function.
 // To change the range, modify UniqueID typedef in ./NetworkTypes.h from "unsigned char" (default data type) to "unsigned short" for 0-65535 range.
 
-UniqueID
+//UniqueID
 
 
 enum
@@ -165,6 +165,6 @@ enum
 	MAX_RPC_UNIQUE_ID, // Don't use it, and leave it as last constant
 };
 
-static_assert((UniqueID)-1 >= MAX_RPC_UNIQUE_ID, "Unique ID limit reached. See the notes in SAMPRPC.h");
-
+//static_assert((UniqueID)-1 >= MAX_RPC_UNIQUE_ID, "Unique ID limit reached. See the notes in SAMPRPC.h");
+static_assert(MAX_RPC_UNIQUE_ID < 256, "Unique ID limit reached.");
 #endif // _SAMPRPC_H

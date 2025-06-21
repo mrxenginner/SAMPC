@@ -5690,7 +5690,7 @@ void CDXUTIMEEditBox::SendKey( BYTE nVirtKey )
 // chance to initialize its default input context associated with the app window.
 HRESULT CDXUTIMEEditBox::StaticOnCreateDevice()
 {
-    ImmDisableTextFrameService(-1);
+    //ImmDisableTextFrameService(-1);
 
     // Save the default input context
     s_hImcDef = _ImmGetContext( DXUTGetHWND() );

@@ -807,6 +807,7 @@ void CNetGame::BroadcastData( char* szUniqueID,
 {
 	PacketReliability reliability;
 	int x=0;
+	UniqueID u = (UniqueID)szUniqueID;
 
 	if (!m_pPlayerPool || m_pPlayerPool->GetLastPlayerId() == -1) return;
 
@@ -818,7 +819,7 @@ void CNetGame::BroadcastData( char* szUniqueID,
 	{
 		if (m_pPlayerPool->GetSlotState(x) && x != (int)wExcludedPlayer)
 		{
-			m_pRak->RPC(szUniqueID, bitStream, HIGH_PRIORITY, reliability,
+			m_pRak->RPC(u, bitStream, HIGH_PRIORITY, reliability,
 				orderingStream, m_pRak->GetPlayerIDFromIndex(x), false, false);
 		}
 	}
